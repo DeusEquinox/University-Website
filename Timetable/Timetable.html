@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Timetable.css">
+    <link rel="stylesheet" href="/Nav.css">
+    <link rel="stylesheet" href="/Universal.css">
+    <title>TimeTable</title>
+</head>
+<body class="Ttable">
+
+    <h1>Your course timetable</h1>
+
+    <p id="bodytext">Bellow you will find your Course TimeTable.<br>
+    If you have any questions regarding the time table <br>
+    please take it up with the student advisor</p>
+
+    <p id="Date"></p>
+
+    <script>
+    var d = new Date();
+    document.getElementById("Date").innerHTML = d;
+    </script>
+
+    <table border="5" cellspacing="0" class="timetable">
+        <tr>
+            <td height="50"
+                width="100">
+                <b>Day</b></br>
+            </td>
+            <td height="50"
+                width="100">
+                <b>8:00-10:00</b>
+            </td>
+            <td height="50"
+                width="100">
+                <b>10:20-12:00</b>
+            </td>
+            <td height="50"
+                width="100">
+                <b>12:00-13:00</b>
+            </td>
+            <td height="50"
+                width="100">
+                <b>13:00-14:00</b>
+            </td>
+            <td height="50"
+                width="100">
+                <b>14:20-16:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td height="50">
+                <b>Monday</b></td>
+            <td height="50">Python</td>
+            <td height="50">CAF</td>
+            <td rowspan="6" height="50">
+                <h2>L<br>U<br>N<br>C<br>H</h2>
+            </td>
+            <td height="50">PPD</td>
+            <td height="50">DLP</td>
+        </tr>
+        <tr>
+            <td height="50">
+                <b>Tuesday</b>
+            </td>
+            <td colspan="2"
+                height="50">DP-900
+            </td>
+            <td height="50">PPD</td>
+            <td height="50">Python</td>
+        </tr>
+        <tr>
+            <td height="50">
+                <b>Wednesday</b>
+            </td>
+            <td height="50">CAF</td>
+            <td height="50">DLP</td>
+            <td colspan="2"
+                height="50">IT-301
+            </td>
+        </tr>
+        <tr>
+            <td height="50">
+                <b>Thursday</b>
+            </td>
+            <td height="50">DLP</td>
+            <td height="50">Python</td>
+            <td colspan="2"
+                height="50">DP-900
+            </td>
+        </tr>
+        <tr>
+            <td height="50">
+                <b>Friday</b>
+            </td>
+            <td colspan="2"
+                height="50">IT-301
+            </td>
+            <td height="50">Python</td>
+            <td height="50">CAF</td>
+        </tr>
+    </table>
+    
+    
+    <footer>
+        <div class="navbar">
+            <a href="/Home/Home.html">Home</a>
+            <a href="/Timetable/Timetable.html" class="active">Timetable</a>
+            <a href="/About Us/AboutUs.html">About Us</a>
+            <a href="/Discussion/Discussion.html">Discussion</a>
+            <a href="/Share/Share.html">Share</a>
+            <a href="/Contact Us/ContactUs.html">Contact Us</a>
+        </div>
+        © 2023 Literally Us All rights reserved
+    </footer>
+</body>
+</html>

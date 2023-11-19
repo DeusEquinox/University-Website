@@ -1,0 +1,32 @@
+.Ttable {
+    background-image: url("Timetable\ Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .Ttable_text{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .timetable{
+  background-color: black;
+    margin: auto auto;
+    color: aqua;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  #Date {
+    text-align: center;
+    color: aliceblue;
+  }

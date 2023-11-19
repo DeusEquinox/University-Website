@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Discussion.css">
+    <link rel="stylesheet" href="/Nav.css">
+    <link rel="stylesheet" href="/Universal.css">
+    <title>Discussion</title>
+</head>
+<body class="discussion">
+
+    <div class="top_bar">
+        <h1>Discussion</h1>
+    </div>
+
+    <p id="bodytext">Here on the discussion page. <br> 
+        You can converse with all of your fellow students on school matters. <br>
+        Questions posted can recieve responses <br>
+        and you can use this to get general help from your school partners!</p> <br><br>
+
+<div id="Content">
+    <div class="Add_Q_Section">
+        <p class="Q_Title">Add a question</p>
+        <textarea class="Question" id="question"></textarea>
+        <button type="submit" id="Q_Submit" onclick="AddQuestion()">Submit</button>
+    </div>
+
+    <script src="Discussion.js"></script>
+    
+    <ol id="Qs">
+    </ol>
+</div>
+
+    <footer>
+        <div class="navbar">
+            <a href="/Home/Home.html">Home</a>
+            <a href="/Timetable/Timetable.html">Timetable</a>
+            <a href="/About Us/AboutUs.html">About Us</a>
+            <a href="/Discussion/Discussion.html" class="active">Discussion</a>
+            <a href="/Share/Share.html">Share</a>
+            <a href="/Contact Us/ContactUs.html">Contact Us</a>
+        </div>
+        © 2023 Literally Us All rights reserved
+    </footer>
+</body>
+</html>

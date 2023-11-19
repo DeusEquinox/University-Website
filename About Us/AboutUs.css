@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.AboutUs{
+    background-image: url("AboutUs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    text-align: center;
+    margin: 10px 60px;
+    min-height: 450px;
+    padding-bottom: 60px;
+}
+  
+.imgTitle {
+    color: purple;
+}
+  
+.image {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+  
+.caption {
+    font-size: 40px;
+    color: hotpink;
+}
+  
+.SupPara {
+    font-size: 15px;
+    color: pink;
+    background-color: black;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+    font-family: "Arial",sans-serif;
+}
+
+.hero{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.heading h1{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    padding: 20px;
+    color:#ffffff;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.hero-content{
+    
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    padding: 20px;
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+
+.hero-content h2{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    padding: 20px;
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+.hero-content p{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+
+
+.hero-image{
+    flex:1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .heading h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .hero{
+        margin: 0px;
+    }
+
+    .container{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+
+    .hero-content{
+        width: 100%;
+        margin: 35px 0px;
+    }
+
+    .hero-content h2{
+        font-size: 30px;
+    }
+
+    .hero-content p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .hero-content button{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    
+    .hero-image{
+        width: 100%;
+    }
+}
+    
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Ncontainer{
+    margin: 20px 40px;
+    color: white;
+    display: flex;
+}
+
+.Nheading{
+    font-size: 60px;
+    color: white;
+}
+
+.Nheading span{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.Nprofiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.Nprofile{
+    flex-basis: 260px;
+}
+
+.Nprofile .Nprofile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.Nprofile:hover .Nprofile-img{
+    filter: grayscale(0);
+}
+
+.Nuser-name{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.Nprofile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #acc;
+}
+
+.Nprofile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1150px){
+    .Nprofiles{
+        flex-direction: column;
+    }
+
+    .Nprofile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nprofile p{
+        text-align: center;
+        margin: 20px 60px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Nheading{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .Nheading span{
+        font-size: 15px;
+    }
+
+    .Nprofiles{
+        margin: 20px 0;
+    }
+
+    .Nprofile p{
+        margin: 20px 10px 80px 10px;
+    }
+}

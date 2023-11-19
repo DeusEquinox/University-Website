@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Share.css">
+    <link rel="stylesheet" href="/Nav.css">
+    <link rel="stylesheet" href="/Universal.css">
+    <title>Share</title>
+</head>
+<body class="Share">
+
+    <h1>Share Resources</h1>
+
+    <p id="bodytext">Here in share resources you will be able to share content <br>
+        with your fellow students in order to aid each other. <br>
+        Its important to help each other so that you may al flourish together <br>
+        as a collective and not just individuals</p>
+
+
+        <div>
+            <input type="file" id="photo" /></br>
+            <button id="upload" onclick="uploadImage()">Upload</button>
+        </div>
+    
+    <ul id="resources">
+    </ul>
+
+    <footer>
+        <div class="navbar">
+            <a href="/Home/Home.html">Home</a>
+            <a href="/Timetable/Timetable.html">Timetable</a>
+            <a href="/About Us/AboutUs.html">About Us</a>
+            <a href="/Discussion/Discussion.html">Discussion</a>
+            <a href="/Share/Share.html" class="active">Share</a>
+            <a href="/Contact Us/ContactUs.html">Contact Us</a>
+        </div>
+        © 2023 Literally Us All rights reserved
+    </footer>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="Share.js"></script>
+</html>

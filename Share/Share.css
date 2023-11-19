@@ -1,0 +1,36 @@
+.Share{
+    background-image: url("ShareBackground.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+
+    margin: 10px 60px;
+    min-height: 450px;
+    padding-bottom: 60px;
+  }
+  
+  .box_button {
+    margin: auto;
+  }
+  
+  .DownBut {
+    margin: auto
+  }
+  
+  ul {
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  strong {
+    font-size: 30px;
+  }
+
+  .title {
+    text-decoration: underline;
+    text-shadow: #f1f1f1;
+    color: aqua;
+  }

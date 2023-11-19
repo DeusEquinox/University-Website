@@ -1,0 +1,32 @@
+footer {
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar {
+      overflow: hidden;
+      background-color: #051e3e;
+      position: fixed;
+      bottom: 0;
+    }
+    
+  .navbar a {
+      float: left;
+      display: block;
+      color: whitesmoke;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+  .navbar a:hover {
+      background: white;
+      color: black;
+    }
+    
+  .navbar a.active {
+      background-color: #851e3e;
+      color: white;
+    }

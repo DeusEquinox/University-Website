@@ -1,0 +1,23 @@
+.ContactUsBody{
+    background-image: url(ContactUsBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+  
+    margin: 10px 60px;
+    min-height: 450px;
+    padding-bottom: 60px;
+  }
+  
+  
+  .ContactUsPara{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 95%;
+    padding: 20px;
+  }
